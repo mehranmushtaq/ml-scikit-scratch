@@ -1,6 +1,6 @@
 # 🏠 Ames Housing AI — Price Prediction Engine
 
-> **Live Demo →** [ames-housing-pro.streamlit.app](https://ames-housing-pro.streamlit.app/)
+> **Live Demo →** [house-prices-ml.streamlit.app](https://house-prices-ml.streamlit.app/)
 
 A machine learning web app that predicts residential property prices using the Ames Housing Dataset. Built with XGBoost, scikit-learn, and Streamlit — achieving an **R² of 0.9291** on the test set.
 
