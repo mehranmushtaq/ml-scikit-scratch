@@ -1,15 +1,5 @@
-# Data Manipulation & Math
-pandas==3.0.3
-numpy==2.4.4
-scipy==1.17.1
-
-# Machine Learning
-scikit-learn==1.8.0
-joblib==1.5.3
-xgboost==3.2.0
-
-# Visualization (The missing piece)
-plotly==6.0.0
-
-# Deployment
-streamlit==1.57.0
+streamlit
+pandas
+numpy
+plotly
+scikit-learn
