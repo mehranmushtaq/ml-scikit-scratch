@@ -54,51 +54,46 @@ Every folder tells a chapter of that story: understanding *why* an algorithm wor
 -----
 
 ## 🗂️ Repository Structure
-
 ```
 ml-scikit-scratch/
 │
-├── 📁 Datasets/                              # Shared datasets across experiments
-│   ├── Emotion_classify_Data.csv
-│   ├── Iris.csv
-│   ├── Social_Network_Ads.csv
-│   ├── house_prices_practice.csv
-│   └── insurance.csv
+├── 📁 Datasets/                       # Shared datasets (CSV, Iris, Insurance, etc.)
 │
-├── 📁 linear_regression/
-├── 📁 Logistic Regression/
-├── 📁 KNN/
-├── 📁 Decision tree/
-├── 📁 Naive bayes/
-├── 📁 Support Vector Machine/
-├── 📁 Regularizaton(Lasso:Ridge)/
+├── 📁 1-Supervised-Learning/          # Scikit-Learn implementations
+│   ├── 📁 linear_regression/
+│   ├── 📁 Logistic Regression/
+│   ├── 📁 KNN/
+│   ├── 📁 Decision tree/
+│   ├── 📁 Naive bayes/
+│   ├── 📁 Support Vector Machine/
+│   └── 📁 Regularizaton(Lasso:Ridge)/
 │
-├── 📁 ensemble learning/
-│   ├── bagging/                              # Random Forest
-│   └── boosting/                             # AdaBoost, Gradient Boosting, XGBoost
+├── 📁 2-Ensemble-Methods/             # Advanced ensemble techniques
+│   ├── 📁 bagging/                    # Random Forest
+│   └── 📁 boosting/                   # AdaBoost, Gradient Boosting, XGBoost
 │
-├── 📁 ml-from-scratch/                       # Pure Python/NumPy — no sklearn
-│   ├── linear_reg.ipynb
-│   ├── logistic_reg.ipynb
-│   └── knn_regressor.ipynb
-│
-├── 📁 unsupervised ml/
+├── 📁 3-Unsupervised-Learning/        # Clustering and dimensionality reduction
 │   ├── k_means.ipynb
 │   ├── hiearchichal_clustering.ipynb
 │   └── dbscan.ipynb
 │
-├── 📁 Projects/                              # End-to-end real-world applications
-│   ├── 📁 customer-segmentation-smartcart/  
-│   ├── 📁 CreditWise Loan System/
-│   ├── 📁 ecommerce-purchase-prediction/
-│   ├── 📁 thyroid_outlier_detection/
-│   └── 📁 disease_prediction_pipeline/
+├── 📁 4-ML-From-Scratch/              # Pure Python/NumPy implementations
+│   ├── linear_reg.ipynb
+│   ├── logistic_reg.ipynb
+│   └── knn_regressor.ipynb
 │
-├── notebook_vs_production.md
-├── requirements.txt
-└── README.md
+├── 📁 End-to-End-Projects/          # Real-world applications & pipelines
+│   ├── 📁 CreditWise-Loan-System/
+│   ├── 📁 customer-segmentation-smartcart/
+│   ├── 📁 disease-prediction-pipeline/
+│   ├── 📁 ecommerce-purchase-prediction/
+│   ├── 📁 house-prices-prediction/
+│   └── 📁 thyroid-outlier-detection/
+│
+├── notebook_vs_production.md          # Guide on transitioning from dev to prod
+├── requirements.txt                   # Project dependencies
+└── README.md                          # Main documentation
 ```
-
 -----
 
 ## What This Repository Covers
