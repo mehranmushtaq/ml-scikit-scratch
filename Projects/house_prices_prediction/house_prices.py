@@ -207,6 +207,11 @@ def load_model():
         features = joblib.load(features_path)
         
         return model, features
+    except Exception:
+        return None, None
+
+model, feature_cols = load_model()
+
 if model is None:
     st.markdown("""
     <div style="background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.3);
