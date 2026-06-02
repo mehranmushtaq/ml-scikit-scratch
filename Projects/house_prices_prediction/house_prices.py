@@ -193,17 +193,20 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # LOAD MODEL
+# Make sure joblib is imported at the top of your file, or inside the function:
+import joblib
+
 @st.cache_resource
 def load_model():
     try:
-        model = joblib.load("ames_housing_xgb_model.pkl")
-        features = joblib.load("model_features.pkl")
+        model_path = "Projects/house_prices_prediction/ames_housing_xgb_model.pkl"
+        features_path = "Projects/house_prices_prediction/model_features.pkl"
+        
+        # ACTUALLY LOAD THE FILES HERE:
+        model = joblib.load(model_path)
+        features = joblib.load(features_path)
+        
         return model, features
-    except Exception:
-        return None, None
-
-model, feature_cols = load_model()
-
 if model is None:
     st.markdown("""
     <div style="background:rgba(212,175,55,0.08);border:1px solid rgba(212,175,55,0.3);
