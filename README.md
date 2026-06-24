@@ -120,7 +120,7 @@ ml-scikit-scratch/
 │       ├── xgboost.ipynb
 │       └── README.md
 │
-├── 📁 ml-from-scratch/                       # Pure Python/NumPy — no sklearn
+├── 📁 ml-from-scratch/                      
 │   ├── linear_reg.ipynb
 │   ├── logistic_reg.ipynb
 │   └── knn_regressor.ipynb
@@ -131,10 +131,10 @@ ml-scikit-scratch/
 │   ├── dbscan.ipynb
 │   └── README.md
 │
-├── 📁 Projects/                              # End-to-end real-world applications
-│   ├── 📁 house-price-prediction/            # 🚀 DEPLOYED
+├── 📁 Projects/                              
+│   ├── 📁 house-price-prediction/            #  DEPLOYED
 │   ├── 📁 customer-segmentation-smartcart/
-│   ├── 📁 CreditWise Loan System/            # 🚀 DEPLOYED (separate repo)
+│   ├── 📁 CreditWise Loan System/            #  DEPLOYED (separate repo)
 │   ├── 📁 ecommerce-purchase-prediction/
 │   ├── 📁 thyroid_outlier_detection/
 │   └── 📁 disease_prediction_pipeline/
